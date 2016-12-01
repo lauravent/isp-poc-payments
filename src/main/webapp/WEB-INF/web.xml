@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>isp-poc-payments</display-name>
+	<servlet>
+	    <servlet-name>com.ibm.isp.poc.rest.server.JerseyRestServer</servlet-name>
+    </servlet>
+    <!-- Servlet mapping can be omitted in case the Application subclass
+         is annotated with @ApplicationPath annotation; in such case
+         the mapping would be automatically added by Jersey -->
+    <servlet-mapping>
+        <servlet-name>com.ibm.isp.poc.rest.server.JerseyRestServer</servlet-name>
+        <url-pattern>/service/*</url-pattern>
+    </servlet-mapping>
+	<welcome-file-list>
+	    <welcome-file>index.html</welcome-file>
+		<welcome-file>home.html</welcome-file>
+		<welcome-file>dbindex.html</welcome-file>
+	</welcome-file-list>
+</web-app>

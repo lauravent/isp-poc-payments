@@ -1,0 +1,12 @@
+########################################################################
+#### Launching payments container pointing to IIB on Bluemix Docker ####
+########################################################################
+CMD="docker run -it --name payments -e IIB_URL=134.168.54.59:7800 -e MOBILE_PUSH=false -p 9080:9080 isp-poc-payments"
+
+######################################################################
+#### Launching payments container pointing to IIB on Local Docker ####
+######################################################################
+## CMD="docker run -it --name payments -e IIB_URL=192.168.99.100:32771 -e MOBILE_PUSH=false -p 9080:9080 isp-poc-payments"
+
+echo "Issuing command : " $CMD
+$CMD

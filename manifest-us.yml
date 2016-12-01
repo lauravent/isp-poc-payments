@@ -1,0 +1,11 @@
+applications:
+- path: target/isp-poc-payments.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: isp-poc-payments-java
+  host: isp-poc-payments-ws
+  disk_quota: 1024M
+env:
+  IIB_URL: 134.168.54.59:7800
+  MOBILE_PUSH: false

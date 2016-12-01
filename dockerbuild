@@ -1,0 +1,4 @@
+CMD="docker build -t isp-poc-payments ."
+echo "Issuing command : " $CMD
+$CMD
+docker images

@@ -1,0 +1,7 @@
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/rest/server/RestServer.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/rest/server/JerseyRestServer.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/payments/service/PaymentTransaction.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/push/service/PushService.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/wasdev/sample/servlet/SimpleServlet.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/payments/service/PaymentService.java
+/Users/robertopozzi/git/bluemix/isp-poc-payments-java/src/main/java/com/ibm/isp/poc/configuration/VcapConfiguration.java

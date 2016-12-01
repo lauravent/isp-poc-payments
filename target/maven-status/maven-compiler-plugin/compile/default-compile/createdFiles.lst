@@ -1,0 +1,7 @@
+com/ibm/isp/poc/push/service/PushService.class
+com/ibm/isp/poc/rest/server/JerseyRestServer.class
+com/ibm/isp/poc/payments/service/PaymentTransaction.class
+com/ibm/isp/poc/configuration/VcapConfiguration.class
+wasdev/sample/servlet/SimpleServlet.class
+com/ibm/isp/poc/rest/server/RestServer.class
+com/ibm/isp/poc/payments/service/PaymentService.class
